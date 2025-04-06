@@ -16,7 +16,7 @@ builder.Services
     .AddOpenAIChatCompletion(
         modelId: "google/gemini-2.5-pro-exp-03-25:free",
         openAIClient: new OpenAI.OpenAIClient(
-            credential: new ApiKeyCredential("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"),
+            credential: new ApiKeyCredential("*****"),
             options: new OpenAI.OpenAIClientOptions
             {
                 Endpoint = new Uri("https://openrouter.ai/api/v1")
